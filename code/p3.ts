@@ -1,2 +1,2 @@
-let str:string='Rehan Ahmad';
+let str:string='Tanweer';
 console.log(str);
