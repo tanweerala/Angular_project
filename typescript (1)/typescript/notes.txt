@@ -1,0 +1,21 @@
+Typescript
+==========
+It is an object oriented scripting language
+It is superset of java script
+It is compiled into java script.This is called transpiled
+Unlike java script, type scipt is strongly typed language
+In angular project every module,component,directive,services,etc are written using typescipt
+
+Main commands of programming
+=============================
+1)Command to create variable
+2)Command to assign value to variable
+3)Command to perform arithmetic and comparison operation
+4)Command to apply condition
+5)Command to execute loop
+6)Command to create object
+7)Command to call methods and function
+8)Command to create array
+
+
+

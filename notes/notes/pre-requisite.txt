@@ -1,0 +1,5 @@
+To use the Angular framework, you should be familiar with the following:
+1:JavaScript
+2:HTML
+3:CSS
+Note:Knowledge of TypeScript is helpful, but not required.

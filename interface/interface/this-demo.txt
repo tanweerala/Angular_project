@@ -1,0 +1,26 @@
+Keyword
+=======
+It is vocabulary of programming language
+
+class Person
+{
+  name:string; 
+  constructor(abc:string)
+  {
+	this.name=abc;
+	this.show();
+  }
+  show()
+  {
+	console.log(this.name);
+  }
+}
+
+let p1=new Person("Rahul");
+let p2=new Person("Amit");
+let p3=new Person("Imran");
+
+p2.show();
+
+
+

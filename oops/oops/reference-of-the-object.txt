@@ -1,0 +1,11 @@
+Reference of object
+===================
+Every object is uniquely identified by using an id.This id is known as reference of the object.Command to create object also returns reference of the object
+Program must keep this refernece into a variable called reference variable
+Data type of reference variable should be that class from which object is created
+
+let prd:Product; //code ot create reference variable
+prd=new Product(101,"Mouse","Logitech",1300);//code to create object from Product class and assigns reference of the object to the reference variable prd
+
+Remember reference of the object will be used inside constructor and methods of the class to identify instance variables.Variable "this" holds reference of the object internally
+

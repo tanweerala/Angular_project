@@ -1,0 +1,19 @@
+Variable:It is named container of data in memory.Program creates this container to keep data.
+Actually program reserves named space(Runtime environment allocates this space)
+in memory and keep data into it.This space is called variabled
+
+let variablename:datatype; //; is optional
+or
+let variablename:datatype=value;
+or
+var variablename:datatype;
+or
+let variablename=value;
+
+Following four datatypes we can use
+string
+number
+boolean
+any
+
+ctr+ `

@@ -1,0 +1,32 @@
+Inheritance
+===========
+Acquiring properties(specily methods) from an existing class into a new class(The class that is being defined) is called inheritance
+The class from which properties are inherited is called super/parent/base cass
+The class which has inherited properties is called sub/child/dervied cass
+
+class AA
+{
+}
+class BB extends AA
+{
+}
+
+Remember only public and protected properties will be inherited by child
+In type script properties are by default public
+
+Method overriding
+=================
+To redefine parent class methods into child class is called method overriding
+This should be done when child class wants to change implementation/body of parent class method
+
+
+Rule:Child class constructor must call the constructor of parent class.Following code shoud be written inside child class constructor to call the constructor of parent class
+
+super(); //This will be inserted by compiler.This will call default constructor of parent class.If parent class does not have default constructor then this code will give error
+or
+super(parameters);//This will be written by you.This will call parameterized constructor of parent
+
+
+
+
+

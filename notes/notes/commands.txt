@@ -1,0 +1,6 @@
+1:Command to create project
+ng new my-app
+2:Command to run project
+ng serve --open
+or
+ng serve

@@ -1,0 +1,18 @@
+interface Camera
+{
+}
+interface Radio
+{
+}
+interface Storage
+{
+}
+interface Phone
+{
+}
+interfce SmartPhone etxends Camera,Radio,Storage,Phone
+{
+}
+class IPhone implements SmartPhone
+{
+}

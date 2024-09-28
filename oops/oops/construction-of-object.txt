@@ -1,0 +1,50 @@
+Object features as container
+============================
+1)Holding data:Intsnace variables and constructor
+2)Returning data:Getter
+3)Changing data:Setter
+
+Instance variables
+==================
+Those variables that are declared/defined inside class without using static keyword are known as instance variables
+
+class AA
+{
+  x:number;//instance variable
+  static y:number;//class variable
+}
+
+These variable are created each time object from the class is created
+It means instance variable can have multiple copies in memory
+Following two activities are performed in construction of and object
+1)Creating instance variables
+2)Assigning value to these variables:Constructor is called to assign value
+class AA
+{
+  private _x:number;//code to create instance variable
+  constructor(x:number)//constructor
+  {
+	this._x=x;//conde to assign value to the instance variable
+  }
+  get x()//getter
+  {
+	return this._x;
+  }
+  set x(n:number)//setter
+  {
+	this._x=n;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

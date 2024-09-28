@@ -1,0 +1,45 @@
+Method overloading
+==================
+Defining more than one same name methods inside a class is known as method veraloding
+Remember parameter/argument list must be different in methods
+Method overaloding should be done when we want to define more than one methods to perform same taks on different parameters
+
+show(num:number)
+{
+  Console.log(num)
+}
+show(name:string)
+{
+  Console.log(name)
+}
+show(x:boolean)
+{
+  Console.log(x)
+}
+
+
+How to change parameter
+=======================
+1)Change number of parameter
+
+add(num1:number,num2:number)
+add(num1:number,num2:number,num3:number)
+
+2)Change datatype of parameter
+
+add(num1:number,num2:number)
+add(num1:string,num2:string)
+
+3)Change sequence of parameter
+
+add(num1:number,num2:string)
+add(num1:string,num2:nmuber)
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+How to set path of nodejs
+=========================
+1)Copy path of of nodejs folder(C:\Program Files\nodejs)
+2)Search edit environment variables in OS search box
+3)Seelct path variable from the forst box
+4)Click on edit button
+5)Click on new button
+6)Copy path into given box
+7)Click on ok button
